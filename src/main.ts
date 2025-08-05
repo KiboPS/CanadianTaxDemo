@@ -20,6 +20,7 @@ export type EstimateTaxContext = {
     body: ThrirdPartyOrderTaxContext,
   },
   exec: Record<string, never>
+  configuration: any
 }
 
 export interface ArcFunction {
